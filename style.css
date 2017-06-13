@@ -1,0 +1,183 @@
+body {
+	color: #8f8f8f;
+	background-color: #f8f8f8;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 0 0;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+   text-align: left;
+   padding-left: 140px;
+   font: 26px Tahoma, sans-serif;
+   color: black; 
+   background: #8f8f8f;
+   width: 320px;
+}
+#wrapper {
+	max-width: 1200px;
+  margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+.block { /* заголовок страницы */
+  position: relative;
+}
+.name_head {
+  font: 48px Tahoma, sans-serif;
+  margin-left: 120px;
+}
+.address_head {
+  font: 24px Tahoma, sans-serif;
+  margin-left: 120px;
+}
+/*.name_head span {
+  font: 55px Mistral, sans-serif;
+}*/
+.address_head span {
+  font: 16px Tahoma, sans-serif;
+}
+form[name="search"] {
+  position: absolute;
+   right: 0px;
+   top: 20px;
+} 
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0px 150px;
+  background: #e5e7e9;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 16px 'Oswald', sans-serif;
+	padding: 5px;  
+}
+.top-menu li {
+	display: inline-block;
+	padding: 7px 50px;
+	margin: 0px;
+  width: 120px;
+  vertical-align: top;
+}
+/*.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}*/
+.top-menu li:hover { /* покрасить фон проводимого мышкой элемента меню голубым */
+  background:#29c5e6;
+}
+.top-menu a {
+	color: #8f8f8f;
+}
+/*aside {
+	float: left;
+	width: 250px;
+}*/
+.img-sant {
+  position: relative;
+}
+.img-elect {
+  position: relative;
+}
+.middle-part { /*блок для центрирования*/
+	max-width: 900px;
+  margin: auto;
+  position: absolute; 
+  top: 20px;
+  left: 100px; 
+}
+.middle-part1 { /*блок для центрирования*/
+	max-width: 900px;
+  margin: auto;
+  position: absolute; 
+  top: 20px;
+  left: 100px; 
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.menu li {
+        list-style: none;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        width: 450px;
+        font: 16px Tahoma, sans-serif;
+        text-align: left;
+        background: #e5e7e9;
+        position: relative;
+        padding-top: 12px;
+        padding-left: 10px;
+}
+.menu li ul{              /* для меню второго уровня*/
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        display: none;
+        position: absolute;  
+        z-index: 9999;
+        left: 470px; /*подвинуть вправо*/
+        top: 0px;    /* поднять на уровень выбранного пункта меню 1 уровня  ???надо поднять пункт меню второго уровня вверх на top:number-menu*30px;*/
+}
+.menu li ul li{
+       /* float: none;*/
+        font: 14px Tahoma, sans-serif;
+        height: 30px;
+        margin: 0;
+        width: 550px;
+        text-align: left;
+       /* background: #e5e7e9;*/
+        padding-left: 50px;
+}
+.menu li a{
+        display: block;
+        width: 450px;
+        height: 30px;
+        color: #8f8f8f; /* цвет шрифта меню второго уровня*/
+        text-decoration: none;
+}
+ .menu li:hover ul{
+          display: block;
+}
+  .menu li:hover{
+          background: #29c5e6; /* изменить фон при наводе мышкой на пункт меню слева*/
+}
+  .menu li ul li ul{
+    left: 150px;
+    top: 0;
+}
+ /* #menu li ul li ul li{display: none;}
+  #menu li ul li:hover ul li{display: block;}*/
+footer {
+  background: #e5e7e9;
+  height: 100px;
+}
